@@ -18,4 +18,4 @@ This project provides us multiple services like  current weather forecast, news,
 ## countries details - http://api.worldbank.org/v2/country/ (api link)
 ## facts - http://numbersapi.com/ (api link)
 ## news- https://newsapi.org/v2/top-headlines?country=in& {authorization /verification done}
-## weather- http://api.openweathermap.org/data/2.5/weather?q='+ city + "&units=metric"+"  {authorization /verification done}
+## weather- http://api.openweathermap.org/data/2.5/weather?q='  {authorization /verification done}
