@@ -1,6 +1,6 @@
 
  $(document).on("change", "#country-select", function () {
-     var url='http://api.worldbank.org/v2/country/'+$('#country-select option:selected').val()+'?format=json';
+     var url='https://api.worldbank.org/v2/country/'+$('#country-select option:selected').val()+'?format=json';
      $.get(url,function(data){
          var h3=document.createElement("h3");
          console.log(data[1]);
